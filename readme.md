@@ -1,187 +1,152 @@
-# Chess AI for Chess.com
+# Chess AI para Chess.com ♟️🤖
 
-♟️🤖 Uma poderosa extensão que integra o Stockfish ao Chess.com, oferecendo análise avançada, sugestões de jogadas, automação opcional e uma interface externa profissional!
+Uma poderosa extensão para navegador que aprimora o Chess.com com análise integrada do Stockfish, fornecendo sugestões profissionais de jogadas, avaliações e opções de jogo automatizado. 🚀
 
----
+![Chess AI Demo](https://raw.githubusercontent.com/allanaltarugio/ChessIA/refs/heads/main/demo.gif)
 
-## 🚀 Demonstração
-
-![Demo GIF](https://raw.githubusercontent.com/allanaltarugio/ChessIA/refs/heads/main/demo.gif)
+> **Novo Recurso:** O Chess AI agora suporta uma interface em janela externa que permite controlar o motor em uma janela ou aba separada, oferecendo uma experiência mais limpa no Chess.com e opções avançadas de visualização!
 
 ---
 
 ## ✨ Funcionalidades
 
-* **Análise Avançada de Lance**: Stockfish integrado avaliando posições em tempo real ⚡️
-* **Indicadores Visuais**: Destaques e setas mostrando o melhor movimento 🎯
-* **Força Ajustável**: Escolha níveis de ELO entre 1000 e 3000 🏆
-* **Barra de Avaliação Dinâmica**: Visual moderno e personalizável 📊
-* **Histórico de Análise**: Registra profundidade, avaliação e melhores lances 📜
-* **Human Mode**: A engine joga como um humano — com pausas e erros ocasionais 🧑‍🦱
-* **Fusion Mode**: Adapta automaticamente a força ao rating do oponente ⚖️
-* **Auto Run & Auto Move**: Análise e jogadas automáticas opcionais 🤖
-* **Atalhos de Teclado**: Controle completo com teclas de Q até = ⌨️
-* **Interface Externa**: Painel avançado em outra janela ou aba 🪟
-* **Exibição de Múltiplos Lances**: Veja os 3–5 melhores movimentos 🔢
-* **Configurações Completas**: Interface totalmente customizável ⚙️
+- **Análise Avançada de Movimentos:** O motor Stockfish integrado avalia posições em tempo real ⚡️  
+- **Indicadores Visuais de Movimento:** Mostra os melhores lances com destaques ou setas no tabuleiro 🎯  
+- **Força Ajustável do Motor:** Defina o ELO entre 1000–3000 para combinar com seu nível 🏆  
+- **Barra de Avaliação Dinâmica:** Representação visual da vantagem com cores personalizáveis 📊  
+- **Histórico de Movimentos:** Registra lances analisados com avaliação e profundidade 📜  
+- **Modo Humano:** Faz a engine jogar como um humano, com tempo natural e erros ocasionais 🧑‍🦱  
+- **Fusion Mode:** Ajusta automaticamente a força da engine para combinar com o rating do oponente ⚖️  
+- **Auto Run & Auto Move:** Opcionalmente automatiza análise e execução de jogadas 🤖  
+- **Controle Completo por Teclado:** Acesso rápido a todas as profundidades via atalhos ⌨️  
+- **Interface em Janela Externa:** Controle o Chess AI em outra janela ou aba 🪟  
+- **Exibição de Múltiplos Movimentos:** Veja os 3–5 melhores lances com opacidade indicando força 🔢  
+- **Configurações Completas:** Interface e comportamento totalmente personalizáveis ⚙️  
 
 ---
 
 ## 📥 Instalação
 
-1. Instale um gerenciador de userscripts:
+1. Instale um gerenciador de userscript:
+   - [Tampermonkey](https://www.tampermonkey.net/) (Chrome, Firefox, Edge, Safari) 🐒  
+   - [Violentmonkey](https://violentmonkey.github.io/) (Chrome, Firefox) 🙈  
 
-   * **Tampermonkey** (Chrome, Firefox, Edge, Safari) 🐒
-   * **Violentmonkey** (Chrome, Firefox) 🙈
-2. Instale o script pelo link (adicione quando houver) 🔗
-3. Acesse Chess.com — a ferramenta ativa automaticamente 🎉
+2. Instale o Chess AI clicando [aqui](https://github.com/longkidkoolstar/Chess-AI/raw/main/Chess-AI.user.js)
+
+3. Acesse o [Chess.com](https://www.chess.com/play) e a ferramenta será ativada automaticamente 🎉  
 
 ---
 
 ## 📖 Guia de Uso
 
-### 🔹 Início Rápido
-
-1. Abra um jogo no Chess.com
-2. Pressione qualquer letra entre **Q e M** para rodar análises em profundidades diferentes
-3. O melhor movimento será mostrado no tabuleiro
-4. Veja a barra de avaliação à esquerda
-
----
-
-## 🔧 Controles Detalhados
-
-### Profundidade da Engine
-
-de **Q até Z** = profundidades 1 a 20
-
-* **Q** → depth 1 (rápido, raso) 💨
-* **Z** → depth 20 (mais profundo) 🐢
-* **=** → profundidade máxima ♾️
+### **Início Rápido**
+1. Vá ao Chess.com e inicie ou entre em uma partida  
+2. Pressione uma tecla (Q–M) para analisar em diferentes profundidades  
+3. O melhor movimento será destacado no tabuleiro  
+4. Use a barra de avaliação à esquerda para ver quem está melhor  
 
 ---
 
-## ⚙️ Painel de Configurações
+### **Controles Detalhados**
 
-### **Engine**
+#### **Profundidade da Engine**
+- **Teclas Q–Z**: executa análises de profundidade 1–26  
+  - Q = profundidade 1 (mais rápida, mais fraca) 💨  
+  - Z = profundidade 20 (mais lenta, mais forte) 🐢  
+  - **=** = profundidade máxima ♾️  
 
-* Profundidade
-* Rating ELO
-* Aberturas e repertórios
+#### **Painel de Configurações**  
+Organizado em abas:
 
-### **Ações**
-
-* Iniciar/parar engine
-* Salvar configurações
-
-### **Visual**
-
-* Barra de avaliação
-* Setas e destaques
-* Interface externa
-
-### **Estilo de Jogo**
-
-* Human Mode
-* Fusion Mode
-
-### **Auto**
-
-* Auto-run
-* Auto-move
+- **Engine:** profundidade, ELO, livro de aberturas, repertório  
+- **Actions:** iniciar/parar engine, salvar configurações  
+- **Visual:** cores da barra, setas, configurações da janela externa  
+- **Play Style:** Modo Humano e Fusion Mode  
+- **Auto:** análise automática e jogadas automáticas  
 
 ---
 
-## 📚 Livro de Aberturas & Repertórios
+### **Livro de Aberturas & Repertórios**
 
-Categorias criadas dinamicamente:
+Inclui:
 
-* **Repertório Misto**
-* **1.e4 (King's Pawn)**
-* **1.d4 (Queen's Pawn)**
-* **Inglês (1.c4)**
-* **Flanco / Hipermodernas**
-
-O sistema detecta automaticamente quando um lance é "in book" ou calculado pela engine.
-
----
-
-## 🧑‍🦱 Human Mode
-
-O motor joga como um humano:
-
-* Variação de tempo
-* Pequenos erros
-* Raríssimos blunders
-* Níveis de 800 a 2400 ELO
+- **Classificação Dinâmica**  
+- **Repertório Misto**  
+- **1.e4 (King's Pawn)**  
+- **1.d4 (Queen's Pawn)**  
+- **Inglês (1.c4 / 1.Nf3)**  
+- **Aberturas de Flanco / Hipermodernas**  
 
 ---
 
-## ⚖️ Fusion Mode
+### **Modo Humano**
 
-Adapta a força do motor ao rating do seu oponente automaticamente.
+- Níveis ajustáveis: 800 → 2400 ELO  
+- Tempo de pensamento realista 🤔  
+- Erros naturais 😕  
+- Blunders raros 🤯  
 
 ---
 
-## 🪟 Interface Externa
+### **Fusion Mode**
 
-Permite controlar tudo por uma segunda janela.
+Adapta automaticamente a força do motor ao rating do oponente.
 
-### Requer:
+---
 
-* Arquivo Python `chess_ai_server.py`
-* Rodar o servidor local
-* Clicar em **Start Local Server** e depois **Open External Window**
+### **Interface Externa**
 
-### Benefícios:
+#### **Como configurar:**
 
-* Tabuleiro virtual
-* Visualização isolada
-* Menos risco de detecção
-* Interface limpa no Chess.com
+1. Ative **“Open GUI in external window”**  
+2. Baixe o arquivo Python  
+3. Execute:
+```
+python chess_ai_server.py
+```
+4. Clique em **Start Local Server**  
+5. Clique em **Open External Window**  
 
 ---
 
 ## ⌨️ Atalhos de Teclado
 
-| Tecla | Função      | Força        |
-| ----- | ----------- | ------------ |
-| Q–E   | Depth 1–3   | Beginner     |
-| R–P   | Depth 4–10  | Intermediate |
-| A–G   | Depth 11–15 | Advanced     |
-| H–L   | Depth 16–19 | Expert       |
-| Z–M   | Depth 20–26 | Master       |
-| =     | Max depth   | Grandmaster  |
+| Tecla | Função | Nível |
+|------|--------|--------|
+| Q–E | Profundidades 1–3 | Beginner |
+| R–P | Profundidades 4–10 | Intermediate |
+| A–G | Profundidades 11–15 | Advanced |
+| H–L | Profundidades 16–19 | Expert |
+| Z–M | Profundidades 20–26 | Master |
+| = | Profundidade máxima | Grandmaster |
 
 ---
 
-## 👍 Dicas
+## 👍 Dicas & Truques
 
-* Depth 5–10 = melhor velocidade x precisão
-* Depth 15+ = posições críticas
-* Use a janela externa para evitar poluição na tela
-* Habilite múltiplos lances para ver opções avançadas
-* Ajuste as cores e estilos das setas
+- Depths 5–10 → melhor equilíbrio  
+- Depths 15+ → análises críticas  
+- Ative destaques persistentes  
+- Use a janela externa para organização  
+- Modo Multimovimentos para estudo  
+- Ajuste estilos das setas  
 
 ---
 
-## ⚠️ Disclaimer
+## ⚠️ Aviso
 
-Este projeto é para estudo, análise e uso casual.
-O uso em partidas **ranqueadas** pode violar os termos do Chess.com.
-Use por sua conta e risco.
+Ferramenta para estudo e uso casual.  
+Evite usar em partidas ranqueadas — pode violar os termos do Chess.com.
 
 ---
 
 ## 🙌 Créditos
 
-Criado por **allanaltarugio**
-Motor: **Stockfish**, o engine open‑source mais forte do mundo
+- Criado por [allanaltarugio](https://github.com/allanaltarugio)  
+- Baseado no [Stockfish](https://stockfishchess.org/)  
 
 ---
 
 ## 📜 Licença
 
-
-Somente para uso pessoal. Não redistribuir.
-
+Uso pessoal apenas. Não distribuir.
