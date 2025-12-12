@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Chess AI
-// @namespace    github.com/allanaltarugio
+// @namespace    github.com/SnoWz96x
 // @version      4.1.4
 // @description  Chess.com Bot/Cheat that finds the best move with evaluation bar and ELO control!
-// @author       allanaltarugio
+// @author       SnoWz96x
 // @license      none
 // @match        https://www.chess.com/play/*
 // @match        https://www.chess.com/game/*
