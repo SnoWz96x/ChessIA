@@ -10,10 +10,6 @@
 
 ---
 
-*Inclua aqui uma imagem ou GIF da ferramenta em ação (opcional)*
-
----
-
 ## ✨ Funcionalidades
 
 * **Análise Avançada de Lance**: Stockfish integrado avaliando posições em tempo real ⚡️
@@ -188,3 +184,4 @@ Motor: **Stockfish**, o engine open‑source mais forte do mundo
 
 
 Somente para uso pessoal. Não redistribuir.
+
