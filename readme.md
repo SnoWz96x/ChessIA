@@ -32,7 +32,6 @@ Uma poderosa extensão para navegador que aprimora o Chess.com com análise inte
    - [Violentmonkey](https://violentmonkey.github.io/) (Chrome, Firefox) 🙈  
 
 2. Instale o Chess AI clicando [aqui](https://github.com/SnoWz96x/ChessIA/raw/main/Chess-AI.user.js)
-2. Instale o Chess AI clicando [aqui]()
 
 3. Acesse o [Chess.com](https://www.chess.com/play) e a ferramenta será ativada automaticamente 🎉  
 
@@ -151,6 +150,7 @@ Evite usar em partidas ranqueadas — pode violar os termos do Chess.com.
 ## 📜 Licença
 
 Uso pessoal apenas. Não distribuir.
+
 
 
 
