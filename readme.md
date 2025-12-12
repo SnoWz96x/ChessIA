@@ -6,7 +6,7 @@
 
 ## 🚀 Demonstração
 
-![Demo GIF](hhttps://github.com/allanaltarugio/ChessIA/blob/main/demo.gif?raw=true)
+![Demo GIF](https://raw.githubusercontent.com/allanaltarugio/ChessIA/refs/heads/main/demo.gif)
 
 ---
 
@@ -179,11 +179,12 @@ Use por sua conta e risco.
 
 ## 🙌 Créditos
 
-Criado por **longkidkoolstar**
+Criado por **allanaltarugio**
 Motor: **Stockfish**, o engine open‑source mais forte do mundo
 
 ---
 
 ## 📜 Licença
+
 
 Somente para uso pessoal. Não redistribuir.
