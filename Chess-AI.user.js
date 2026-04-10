@@ -356,7 +356,7 @@ function main() {
 
     // Function to download the Python server using GM.download with fallback
     myFunctions.downloadServer = function() {
-        const serverUrl = 'https://raw.githubusercontent.com/longkidkoolstar/Chess-AI/refs/heads/main/chess_ai_server.py';
+        const serverUrl = 'https://raw.githubusercontent.com/SnoWz96x/Chess-AI/refs/heads/main/chess_ai_server.py';
         const filename = 'chess_ai_server.py';
 
         // Show download notification
