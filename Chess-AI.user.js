@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Chess AI
 // @namespace    https://github.com/SnoWz96x
-// @version      4.1.5
+// @version      4.1.6
 // @description  Chess.com Bot/Cheat that finds the best move with evaluation bar and ELO control!
 // @author       SnoWz96x
 // @license      none
@@ -21,7 +21,7 @@
 // ==/UserScript==
 
 
-const currentVersion = '4.1.5'; // Updated version number
+const currentVersion = '4.1.6'; // Updated version number
 
 function main() {
 
@@ -356,7 +356,7 @@ function main() {
 
     // Function to download the Python server using GM.download with fallback
     myFunctions.downloadServer = function() {
-        const serverUrl = 'https://raw.githubusercontent.com/SnoWz96x/ChessIA/refs/heads/main/chess_ai_server.py';
+        const serverUrl = 'https://raw.githubusercontent.com/longkidkoolstar/Chess-AI/refs/heads/main/chess_ai_server.py';
         const filename = 'chess_ai_server.py';
 
         // Show download notification
